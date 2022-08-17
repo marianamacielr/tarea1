@@ -1,0 +1,16 @@
+124  git branch
+  125  cd tarea1
+  126  git checkout -b rama-2
+  127  git branch
+  128  mkdir -p static/{css,js}
+  129  mkdir templates
+  130  git branch
+  131  cd templates
+  132  touch index.html
+  133  cd ..
+  134  touch app.py
+  135  git status
+  136  git add .
+  137  git status
+  138  git commit -m "Estructura de carpetas creada"
+  139  git branch
